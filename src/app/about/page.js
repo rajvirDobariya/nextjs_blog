@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation';
 import React from 'react'
 
-export default function page() {
+export default function Page() {
   
   //router
   const router = useRouter();

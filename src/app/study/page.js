@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function page() {
+export default function Page() {
   return (
     <div>
       <h1>Catch All Studies </h1>

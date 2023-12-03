@@ -11,8 +11,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        {/* <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> */}
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="/style.css" />
+        <script src='/common.js'></script>
+      </head>
       <body className={inter.className}>
         <h1>Common layout</h1>
+        <img src="/dummy.jpg" alt="" height={'500px'} />
       {children}</body>
     </html>
   )
