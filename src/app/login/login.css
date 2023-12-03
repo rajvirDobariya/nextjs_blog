@@ -1,0 +1,90 @@
+/* login.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Login page container styles */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.login-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input styles */
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for links inside login-form */
+.login-form a {
+  text-decoration: none;
+  color: #007bff; /* Blue link color */
+  display: inline-block; /* Make links inline */
+  border-bottom: 1px solid #007bff; /* Add a line below each link */
+  padding: 8px 0; /* Adjust padding */
+  font-size: 16px; /* Adjust font size */
+  transition: color 0.3s ease, border-bottom-color 0.3s ease; /* Transition for color and border-bottom */
+}
+
+.login-form a:after {
+  content: "|"; /* Add a separator after each link */
+  padding: 0 5px; /* Adjust separator padding */
+  color: #007bff; /* Match separator color with link color */
+}
+
+.login-form a:last-child {
+  border-bottom: none; /* Remove line from the last link */
+}
+
+.login-form {
+  white-space: nowrap;
+}
+.login-form a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  border-bottom-color: #0056b3; /* Darker blue line on hover */
+}
+
+
+/* Link styles */
+.login-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.login-links a {
+  text-decoration: none;
+  color: #007bff; /* Blue links */
+  margin-bottom: 10px;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Darker blue on hover */
+}
